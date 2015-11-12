@@ -6,13 +6,17 @@ A Leiningen template for MailOnline projects
 
 You need to install this template before you can use it
 
-```git clone https://github.com/clumsyjedi/lein-mailonline-template
+```
+git clone https://github.com/clumsyjedi/lein-mailonline-template
 cd lein-mailonline-template
-lein install```
+lein install
+```
 
 Then you can create new projects with it like so
 
-```lein new mailonline your-project-name```
+```
+lein new mailonline your-project-name
+```
 
 ## License
 
