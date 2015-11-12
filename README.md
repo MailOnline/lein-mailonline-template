@@ -4,7 +4,15 @@ A Leiningen template for MailOnline projects
 
 ## Usage
 
-`lein new mailonline your-project-name`
+You need to install this template before you can use it
+
+```git clone https://github.com/clumsyjedi/lein-mailonline-template
+cd lein-mailonline-template
+lein install```
+
+Then you can create new projects with it like so
+
+```lein new mailonline your-project-name```
 
 ## License
 
