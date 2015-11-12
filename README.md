@@ -7,7 +7,7 @@ A Leiningen template for MailOnline projects
 You need to install this template before you can use it
 
 ```
-git clone https://github.com/clumsyjedi/lein-mailonline-template
+git clone https://github.com/MailOnline/lein-mailonline-template
 cd lein-mailonline-template
 lein install
 ```
