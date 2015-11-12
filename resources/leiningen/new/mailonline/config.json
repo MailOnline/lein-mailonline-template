@@ -1,0 +1,65 @@
+{
+  "integration_masters": {
+    "ips": ["10.251.76.120"],
+    "clj_fe_zk_conn_str": "10.251.76.97:2181,10.251.76.98:2181,10.251.76.99:2181",
+    "clj_fe_zk_root": "clj-fe-int",
+    "port": "4040",
+    "operation_mode": "master"
+  },
+  "integration_workers": {
+    "ips": ["10.251.76.107"],
+    "clj_fe_zk_conn_str": "10.251.76.97:2181,10.251.76.98:2181,10.251.76.99:2181",
+    "clj_fe_zk_root": "clj-fe-int",
+    "port": "5050",
+    "operation_mode": "worker"
+  },
+  "production_a_masters": {
+    "ips": ["10.250.133.133","10.250.133.134"],
+    "clj_fe_zk_conn_str": "10.250.133.30:2181,10.250.133.31:2181,10.250.133.32:2181,10.250.133.33:2181,10.250.133.34:2181",
+    "clj_fe_zk_root": "clj-fe-prod-a",
+    "port": "4040",
+    "operation_mode": "master"
+  },
+  "production_a_workers": {
+    "ips": ["10.250.133.135","10.250.133.136"],
+    "clj_fe_zk_conn_str": "10.250.133.30:2181,10.250.133.31:2181,10.250.133.32:2181,10.250.133.33:2181,10.250.133.34:2181",
+    "clj_fe_zk_root": "clj-fe-prod-a",
+    "port": "5050",
+    "operation_mode": "worker"
+  },
+  "production_b_masters": {
+    "ips": ["10.250.133.204","10.250.133.205"],
+    "clj_fe_zk_conn_str": "10.250.133.30:2181,10.250.133.31:2181,10.250.133.32:2181,10.250.133.33:2181,10.250.133.34:2181",
+    "clj_fe_zk_root": "clj-fe-prod-b",
+    "port": "4040",
+    "operation_mode": "master"
+  },
+  "production_b_workers": {
+    "ips": ["10.250.133.206","10.250.133.207"],
+    "clj_fe_zk_conn_str": "10.250.133.30:2181,10.250.133.31:2181,10.250.133.32:2181,10.250.133.33:2181,10.250.133.34:2181",
+    "clj_fe_zk_root": "clj-fe-prod-b",
+    "port": "5050",
+    "operation_mode": "worker"
+  },
+  "production_c_masters": {
+    "ips": ["10.252.132.228","10.252.132.229"],
+    "clj_fe_zk_conn_str": "10.252.132.129:2181,10.252.132.130:2181,10.252.132.131:2181,10.252.132.132:2181,10.252.132.133:2181",
+    "clj_fe_zk_root": "clj-fe-prod-c",
+    "port": "4040",
+    "operation_mode": "master"
+  },
+  "production_c_workers": {
+    "ips": ["10.252.132.232","10.252.132.233"],
+    "clj_fe_zk_conn_str": "10.252.132.129:2181,10.252.132.130:2181,10.252.132.131:2181,10.252.132.132:2181,10.252.132.133:2181",
+    "clj_fe_zk_root": "clj-fe-prod-c",
+    "port": "5050",
+    "operation_mode": "worker"
+  },
+  "common": {
+    "name": "clj-postman-pat",
+    "user": "pp",
+    "healthcheck": "meta",
+    "description": "Postman Pat",
+    "comment": "Handles all incoming POSTs"
+  }
+}
